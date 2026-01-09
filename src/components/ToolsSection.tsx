@@ -4,14 +4,22 @@ const ToolsSection = () => {
   const tools = [
     { name: "Selenium", icon: "🔬" },
     { name: "Playwright", icon: "🎭" },
-    { name: "Postman", icon: "📮" },
-    { name: "JMeter", icon: "⚡" },
+    { name: "Maven", icon: "📦" },
     { name: "JIRA", icon: "📊" },
-    { name: "Git", icon: "📦" },
     { name: "Jenkins", icon: "🔧" },
-    { name: "SQL", icon: "🗃️" },
+    { name: "JMeter", icon: "⚡" },
+    { name: "Git", icon: "📂" },
+    { name: "Appium", icon: "📱" },
+    { name: "Postman", icon: "📮" },
+    { name: "REST Assured", icon: "🔗" },
     { name: "TestNG", icon: "🧪" },
-    { name: "PyTest", icon: "🐍" },
+    { name: "Cucumber", icon: "🥒" },
+    { name: "JUnit", icon: "✅" },
+    { name: "POM", icon: "📋" },
+    { name: "Mocha", icon: "☕" },
+    { name: "Agile", icon: "🔄" },
+    { name: "BrowserStack", icon: "🌐" },
+    { name: "GenAI", icon: "🤖" },
   ];
 
   return (
@@ -35,19 +43,19 @@ const ToolsSection = () => {
           </p>
         </motion.div>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
           {tools.map((tool, index) => (
             <motion.div
               key={tool.name}
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
+              transition={{ duration: 0.4, delay: index * 0.03 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05, y: -5 }}
-              className="bg-card rounded-2xl px-8 py-6 shadow-card hover:shadow-card-hover transition-all duration-300 border border-border hover:border-secondary/30 flex items-center gap-4"
+              className="bg-card rounded-2xl px-6 py-4 md:px-8 md:py-6 shadow-card hover:shadow-card-hover transition-all duration-300 border border-border hover:border-secondary/30 flex items-center gap-3 md:gap-4"
             >
-              <span className="text-3xl">{tool.icon}</span>
-              <span className="font-heading font-semibold text-lg text-foreground">{tool.name}</span>
+              <span className="text-2xl md:text-3xl">{tool.icon}</span>
+              <span className="font-heading font-semibold text-base md:text-lg text-foreground">{tool.name}</span>
             </motion.div>
           ))}
         </div>

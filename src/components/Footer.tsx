@@ -103,13 +103,13 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-primary-foreground/70">
-                  123 Tech Park, IT Corridor, Chennai - 600001
+                  No.1, Apparao Colony, Near HP Petrol Bunk, Tambaram Sanatorium, Chennai - 600047
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-secondary flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-primary-foreground/70 hover:text-secondary transition-colors">
-                  +1 234 567 890
+                <a href="tel:8939982169" className="text-primary-foreground/70 hover:text-secondary transition-colors">
+                  8939982169
                 </a>
               </li>
               <li className="flex items-center gap-3">
