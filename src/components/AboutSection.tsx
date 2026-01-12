@@ -11,7 +11,7 @@ const AboutSection = () => {
   ];
 
   const highlights = [
-    { icon: <Shield className="w-6 h-6" />, title: "ISTQB-Aligned", desc: "Industry-standard curriculum" },
+    { icon: <Shield className="w-6 h-6" />, title: "ISTQB-Certified", desc: "Industry-standard curriculum" },
     { icon: <Code2 className="w-6 h-6" />, title: "Real-Time Defect Tracking", desc: "Work with live projects" },
     { icon: <Users className="w-6 h-6" />, title: "Live Project Exposure", desc: "Build portfolio projects" },
     { icon: <Trophy className="w-6 h-6" />, title: "Placement Support", desc: "Interview preparation" },

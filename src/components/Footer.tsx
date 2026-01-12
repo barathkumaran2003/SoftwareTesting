@@ -1,4 +1,16 @@
-import { Bug, MapPin, Phone, Mail, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
+import {
+  Bug,
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Youtube,
+} from "lucide-react";
+
+// ✅ Greens Logo Import
+import greensLogo from "@/assets/greens-logo.jpeg";
 
 const Footer = () => {
   const quickLinks = [
@@ -29,20 +41,26 @@ const Footer = () => {
     <footer className="bg-primary pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+          
           {/* Brand */}
           <div>
             <a href="#" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
-                <Bug className="w-6 h-6 text-secondary-foreground" />
-              </div>
+              {/* ✅ GREENS LOGO ADDED */}
+              <img
+                src={greensLogo}
+                alt="Greens Technologies Logo"
+                className="w-10 h-10 object-contain"
+              />
               <span className="font-heading font-bold text-xl text-primary-foreground">
                 Greens<span className="text-secondary">Tech</span>
               </span>
             </a>
+
             <p className="text-primary-foreground/70 mb-6">
-              Leading Software Testing Training Institute with 15+ years of experience 
-              in creating industry-ready QA professionals.
+              Leading Software Testing Training Institute with 15+ years of
+              experience in creating industry-ready QA professionals.
             </p>
+
             <div className="flex gap-3">
               {socialLinks.map((social, index) => (
                 <a
@@ -103,18 +121,25 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-primary-foreground/70">
-                  No.1, Apparao Colony, Near HP Petrol Bunk, Tambaram Sanatorium, Chennai - 600047
+                  No.1, Apparao Colony, Near HP Petrol Bunk, Tambaram Sanatorium,
+                  Chennai - 600047
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-secondary flex-shrink-0" />
-                <a href="tel:8939982169" className="text-primary-foreground/70 hover:text-secondary transition-colors">
+                <a
+                  href="tel:8939982169"
+                  className="text-primary-foreground/70 hover:text-secondary transition-colors"
+                >
                   8939982169
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-secondary flex-shrink-0" />
-                <a href="mailto:info@greenstech.com" className="text-primary-foreground/70 hover:text-secondary transition-colors">
+                <a
+                  href="mailto:info@greenstech.com"
+                  className="text-primary-foreground/70 hover:text-secondary transition-colors"
+                >
                   info@greenstech.com
                 </a>
               </li>
@@ -129,10 +154,16 @@ const Footer = () => {
               © 2024 Greens Technologies. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+              <a
+                href="#"
+                className="text-primary-foreground/60 hover:text-secondary transition-colors"
+              >
                 Privacy Policy
               </a>
-              <a href="#" className="text-primary-foreground/60 hover:text-secondary transition-colors">
+              <a
+                href="#"
+                className="text-primary-foreground/60 hover:text-secondary transition-colors"
+              >
                 Terms of Service
               </a>
             </div>

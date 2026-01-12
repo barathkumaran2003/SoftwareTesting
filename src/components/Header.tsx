@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Bug, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 import EnrollmentDialog from "./EnrollmentDialog";
+
+// ✅ Logo import (use correct path)
+import greensLogo from "@/assets/greens-logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,13 +26,19 @@ const Header = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Logo */}
-            <a href="#" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-hero-gradient flex items-center justify-center">
-                <Bug className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="font-heading font-bold text-xl text-primary">
-                Greens<span className="text-secondary">Tech</span>
+            
+            {/* ✅ LOGO */}
+            <a href="#" className="flex items-center gap-3">
+              <img
+                src={greensLogo}
+                alt="Greens Technologies Logo"
+                className="w-14 h-18 object-contain"
+              />
+              <span className="font-heading font-bold text-xl text-primary tracking-wide">
+                GREENS
+                <span className="block text-xs text-secondary tracking-[0.2em]">
+                  TECHNOLOGIES
+                </span>
               </span>
             </a>
 
@@ -49,11 +58,21 @@ const Header = () => {
 
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-4">
-              <a href="tel:8939982169" className="flex items-center gap-2 text-primary font-medium">
-                <Phone className="w-4 h-4" />
-                <span>8939982169</span>
+              <a
+                href="tel:8939982169"
+                className="flex items-center gap-2 font-medium"
+              >
+                <Phone className="w-4 h-4 text-[#9c7a1f]" />
+                <span className="text-[#0f5132]">
+                  8939982169
+                </span>
               </a>
-              <Button variant="hero" size="default" onClick={() => setEnrollDialogOpen(true)}>
+
+              <Button
+                variant="hero"
+                size="default"
+                onClick={() => setEnrollDialogOpen(true)}
+              >
                 Enroll Now
               </Button>
             </div>
@@ -88,12 +107,27 @@ const Header = () => {
                       {link.label}
                     </a>
                   ))}
+
                   <div className="pt-4 border-t border-border flex flex-col gap-3">
-                    <a href="tel:8939982169" className="flex items-center gap-2 text-primary font-medium">
-                      <Phone className="w-4 h-4" />
-                      <span>8939982169</span>
+                    <a
+                      href="tel:8939982169"
+                      className="flex items-center gap-2 font-medium"
+                    >
+                      <Phone className="w-4 h-4 text-[#9c7a1f]" />
+                      <span className="text-[#0f5132]">
+                        8939982169
+                      </span>
                     </a>
-                    <Button variant="hero" size="lg" className="w-full" onClick={() => { setEnrollDialogOpen(true); setIsMenuOpen(false); }}>
+
+                    <Button
+                      variant="hero"
+                      size="lg"
+                      className="w-full"
+                      onClick={() => {
+                        setEnrollDialogOpen(true);
+                        setIsMenuOpen(false);
+                      }}
+                    >
                       Enroll Now
                     </Button>
                   </div>
@@ -104,10 +138,10 @@ const Header = () => {
         </div>
       </header>
 
-      <EnrollmentDialog 
-        open={enrollDialogOpen} 
-        onOpenChange={setEnrollDialogOpen} 
-        type="enroll" 
+      <EnrollmentDialog
+        open={enrollDialogOpen}
+        onOpenChange={setEnrollDialogOpen}
+        type="enroll"
       />
     </>
   );
