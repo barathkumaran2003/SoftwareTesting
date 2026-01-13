@@ -67,10 +67,10 @@ const TestimonialsSection = () => {
             Tambaram Branch Reviews
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6">
-            What Our <span className="text-secondary">Students Say</span>
+            Greens Technologies successfull{" "} <span className="text-secondary">Story of Our Students</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of successful QA professionals who started their journey with us at Greens Tambaram
+            Placed thousands of successfull QA professionals who started their journey with us at Greens Tambaram
           </p>
         </motion.div>
 

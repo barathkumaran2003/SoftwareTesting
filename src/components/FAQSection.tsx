@@ -34,7 +34,7 @@ const FAQSection = () => {
     },
     {
       question: "Who is the trainer for the course?",
-      answer: "Our lead trainer Manoj has 12+ years of industry experience in QA and has trained over 5000+ students. All our trainers are working professionals from top IT companies."
+      answer: "Our head trainer Mr. Manoj has 12+ years of industry experience in QA and has trained over 25,000+ students. All our trainers are working professionals from top IT companies."
     },
     {
       question: "Do you provide real-time project experience?",
@@ -53,7 +53,7 @@ const FAQSection = () => {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6">
-            Got Questions?
+            Any Queries...?
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6">
             Frequently Asked <span className="text-secondary">Questions</span>

@@ -24,20 +24,20 @@ const WhyChooseSection = () => {
     },
     {
       icon: GraduationCap,
-      title: "Experienced QA Mentors",
-      desc: "Learn from industry professionals with 10+ years experience",
+      title: "Experienced QA Instructors",
+      desc: "Learn from industry professionals with 10+ years of experience",
       gradient: "from-[#10b981] via-[#14b8a6] to-[#22d3ee]",
     },
     {
       icon: Users,
       title: "Agile & Scrum Training",
-      desc: "Master modern software development methodologies",
+      desc: "Master's in modern software development methodologies",
       gradient: "from-[#8b5cf6] via-[#a855f7] to-[#ec4899]",
     },
     {
       icon: Briefcase,
       title: "Placement Assistance",
-      desc: "Get connected with 300+ hiring partners",
+      desc: "Get connect with 300+ hiring partners",
       gradient: "from-[#f59e0b] via-[#f97316] to-[#ef4444]",
     },
     {
@@ -67,13 +67,13 @@ const WhyChooseSection = () => {
           </span>
 
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Why Train with{" "}
-            <span className="text-secondary">Greens Technologies</span>
+            Greens{" "}
+            <span className="text-secondary">Technologies Provides</span>
           </h2>
 
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            We don't just teach testing—we prepare you for a successful career in
-            Quality Assurance
+            Choose Greens Technologies for industry-relevant training with expert trainers, hands-on projects, and real-time exposure.
+Get career-focused courses with strong placement support to help you succeed in the IT industry.
           </p>
         </motion.div>
 

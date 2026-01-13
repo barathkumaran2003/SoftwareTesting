@@ -65,7 +65,7 @@ const HeroSection = () => {
               </div>
 
               <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
-                Masters in{" "}
+                Master's in{" "}
                 <span className="text-secondary">Software Testing</span>{" "}
                 & Automation
               </h1>

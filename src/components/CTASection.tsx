@@ -65,13 +65,13 @@ const CTASection = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-8 justify-center items-center text-primary-foreground/90">
-                <a href="tel:8939982169" className="flex items-center gap-2 hover:text-secondary transition-colors">
+                <a href="tel:8939915538" className="flex items-center gap-2 hover:text-secondary transition-colors">
                   <Phone className="w-5 h-5" />
-                  <span className="font-medium">8939982169</span>
+                  <span className="font-medium">8939915538</span>
                 </a>
-                <a href="mailto:info@greenstech.com" className="flex items-center gap-2 hover:text-secondary transition-colors">
+                <a href="mailto:manoj.greenstech@gmail.com" className="flex items-center gap-2 hover:text-secondary transition-colors">
                   <Mail className="w-5 h-5" />
-                  <span className="font-medium">info@greenstech.com</span>
+                  <span className="font-medium">manoj.greenstech@gmail.com</span>
                 </a>
               </div>
             </motion.div>

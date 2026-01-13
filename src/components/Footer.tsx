@@ -24,7 +24,7 @@ const Footer = () => {
   const courses = [
     "Manual Testing",
     "Selenium Automation",
-    "Playwright Testing",
+    "Playwright Automation",
     "API Testing",
     "Performance Testing",
     "Mobile Testing",
@@ -57,7 +57,7 @@ const Footer = () => {
             </a>
 
             <p className="text-primary-foreground/70 mb-6">
-              Leading Software Testing Training Institute with 15+ years of
+              Leading Software Testing Training Institute with 18+ years of
               experience in creating industry-ready QA professionals.
             </p>
 
@@ -128,19 +128,19 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-secondary flex-shrink-0" />
                 <a
-                  href="tel:8939982169"
+                  href="tel:8939915538"
                   className="text-primary-foreground/70 hover:text-secondary transition-colors"
                 >
-                  8939982169
+                  8939915538
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-secondary flex-shrink-0" />
                 <a
-                  href="mailto:info@greenstech.com"
+                  href="mailto:manoj.greenstech@gmail.com"
                   className="text-primary-foreground/70 hover:text-secondary transition-colors"
                 >
-                  info@greenstech.com
+                  manoj.greenstech@gmail.com
                 </a>
               </li>
             </ul>

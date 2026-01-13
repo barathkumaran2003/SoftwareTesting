@@ -74,7 +74,7 @@ const SyllabusSection = () => {
             Comprehensive <span className="text-secondary">Syllabus</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Industry-aligned curriculum covering everything you need to become a skilled QA professional
+            Industry-aligned curriculum covering everything you need to become a skilled and advanced QA professional
           </p>
         </motion.div>
 

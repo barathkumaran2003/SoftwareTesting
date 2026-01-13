@@ -52,19 +52,19 @@ const ContactSection = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Call Us",
-      content: "8939982169",
-      href: "tel:8939982169",
+      content: "8939915538",
+      href: "tel:8939915538",
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email Us",
-      content: "info@greenstech.com",
-      href: "mailto:info@greenstech.com",
+      content: "manoj.greenstech@gmail.com",
+      href: "mailto:manoj.greenstech@gmail.com",
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Working Hours",
-      content: "Mon - Sat: 9:00 AM - 8:00 PM",
+      content: "Mon - Sun: 9:00 AM - 8:00 PM",
     },
   ];
 
@@ -85,7 +85,7 @@ const ContactSection = () => {
             Contact <span className="text-secondary">Us</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have questions? Reach out to us and our team will get back to you within 24 hours
+            Have questions? Reach us & our team will available at anytime to help you.
           </p>
         </motion.div>
 

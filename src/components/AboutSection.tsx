@@ -39,7 +39,7 @@ const AboutSection = () => {
             </h2>
 
             <p className="text-lg text-muted-foreground mb-8">
-              Join thousands of successful QA engineers who started their journey with us. 
+              Thousands of successfull QA engineers who started their journey with us. 
               Our comprehensive training program covers everything from fundamentals to 
               advanced automation frameworks.
             </p>
